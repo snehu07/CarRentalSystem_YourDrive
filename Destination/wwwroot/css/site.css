@@ -1,0 +1,73 @@
+﻿
+body {
+    background: url('https://images.unsplash.com/photo-1622554364278-d5b2b0c3a84d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Ymx1ZSUyMHNreSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80');
+}
+
+
+
+.tab-content.cabecera {
+    position: fixed;
+    top: 0;
+    background: #fff;
+
+    width: 100%;
+    max-width: 1170px;
+    z-index: 10;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height:normal;
+    white-space: nowrap;
+    border-style:hidden;
+    background-color:white;
+   text-decoration-thickness:inherit;
+}
+
+    .navbar-brand:hover, .navbar-brand:focus {
+        text-decoration: none;
+        color:black;
+    }
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+    .navbar-nav .nav-link {
+        padding-right: 0;
+        padding-left: 0;
+    }
+.navbar-text {
+    display: inline-block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    
+}
+
+.navbar-light .navbar-brand {
+    color: black;
+}
+
+    .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+        color: black;
+    }
+
+.navbar-light .navbar-text a {
+    color: black;
+}
+
+.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+    color: black;
+}
+.nav-link{
+    color:palevioletred;
+}
